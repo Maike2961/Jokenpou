@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joquinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <section class="question">
+            <h2 class="title">Escolha</h2>
+            <input type="text" id="chooses" placeholder="Escolha jogar contra a maquina ou ter um jogador2">
+            <input type="submit" value="Enviar" id="botao">
+        </section>
+
+        <section class="playerpc">
+            <h2 class="title">Jogador vs PC </h2>
+            <input type="text" placeholder="Escolha pedra, papel ou tesoura" id="game" required>
+            <input type="submit" value="Enviar" id="enviar">
+        </section>
+
+        <section class="players">
+            <h2 class="title">Um contra um</h2>
+            <label for="player1">Player 1</label>
+            <input type="text" placeholder="Escolha pedra, papel ou tesoura" id="player1">
+            <label for="player1">Player 2</label>
+            <input type="text" placeholder="Escolha pedra, papel ou tesoura" id="player2">
+            <input type="submit" value="Enviar" id="envia">
+        </section>
+
+        <div id="tela"></div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
