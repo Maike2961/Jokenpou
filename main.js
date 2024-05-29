@@ -17,7 +17,7 @@ botaodecision.addEventListener('click', () => {
         question.style.display = "None"
         players()
     } else {
-        tela.innerHTML = "Escolha jogar somente PC com outro jogador "
+        tela.innerHTML = "Digite somente jogar maquina ou jogador2 "
     }
 });
 
